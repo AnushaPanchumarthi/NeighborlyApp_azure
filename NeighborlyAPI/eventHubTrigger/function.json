@@ -1,0 +1,13 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "event",
+      "direction": "in",
+	  "eventHubName": "p5neighbolryapphub", 
+	  "connection": "Endpoint=sb://p5neighbolryapphub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=deOJ3Bg/Xa+oMljgm3W+7fUIjIkXICdW5KUE7ANkKkk="
+    }
+  ]
+}
+
